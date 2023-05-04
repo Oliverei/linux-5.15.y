@@ -94,7 +94,7 @@
 		status = "okay";
 		sys_led {
 			label = "sys_led";
-			gpios = <&gpio_ao GPIOX_17 GPIO_ACTIVE_HIGH>;
+			gpios = <&gpio_ao GPIOAO_11 GPIO_ACTIVE_HIGH>;
 			default-state = "on";
 			linux,default-trigger = "default-on";
 		};
